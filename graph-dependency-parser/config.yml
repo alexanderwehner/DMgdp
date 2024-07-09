@@ -1,0 +1,12 @@
+limit_train: 13000
+limit_dev: 2100
+debug: False
+batchsize: 8
+epochs: 10
+lr: 0.0008
+activation: relu
+learning_rate: 0.0002
+betas: [0.9, 0.999]
+wandb_project: "dependency-parser"
+architecture: "DM"
+modelchoice: "dm"
