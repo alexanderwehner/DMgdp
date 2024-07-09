@@ -1,3 +1,5 @@
+graph dependency parser eval.txt
+
 Als erstes habe ich den vorimplementierten MLP Parser installiert und mit ganz abgespeckten Parametern über meine Notebook CPU (Intel® Core™ i7-5500U CPU @ 2.40GHz × 4; 2 physische, 4 logische Kerne; Bj. ca. 2015) lokal laufen lassen, nur um zu testen ob dieser überhaupt durchläuft, was funktioniert hat (siehe 2 Screenshot-Dateien "local test mlp model installation (...) .png").
 
 Zum Testen des D&M Parsers habe ich dann zunächst 10 Durchläufe mit etwas niedrigeren Parametern laufen lassen, jedoch mit dem vollen Trainigsdatenset (limit_train auf 13000 und limit_dev auf 2100, trial & error), da der Parser zu diesem Zeitpunkt schon gut lief.
